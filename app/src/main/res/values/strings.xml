@@ -4,21 +4,21 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
-    <string name="title_map">Carte</string>
+    <string name="title_map">Map</string>
     <string name="title_burger">Menu</string>
-    <string name="title_profile">Compte</string>
+    <string name="title_profile">Profile</string>
 
-    <string name="menu_excursion">Excursion</string>
+    <string name="menu_excursion">This is the text of  fragment  Map</string>
     <string name="menu_sport">Sport</string>
-    <string name="menu_wellness">Bien-être</string>
+    <string name="menu_wellness">Wellness</string>
     <string name="menu_culture">Culture</string>
-    <string name="menu_event">Evènement</string>
+    <string name="menu_event">Event</string>
     <string name="menu_shopping">Shopping</string>
     <string name="menu_restaurant">Restaurant</string>
 
     <string name="text_map">Ceci est le texte du fragment Carte</string>
-    <string name="text_burger">Ceci est le texte du fragment Menu</string>
-    <string name="text_profile">Ceci est le texte du fragment Compte</string>
+    <string name="text_burger">This is the text of  fragment Menu</string>
+    <string name="text_profile">This is the text of  fragment Profile</string>
 
 
 </resources>

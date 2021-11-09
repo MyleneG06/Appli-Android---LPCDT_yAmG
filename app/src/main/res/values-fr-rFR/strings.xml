@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RomantiCruise</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_map">Carte</string>
+    <string name="title_burger">Menu</string>
+    <string name="title_profile">Compte</string>
+    <string name="menu_excursion">Excursion</string>
+    <string name="menu_sport">Sport</string>
+    <string name="menu_wellness">Bien-être</string>
+    <string name="menu_culture">Culture</string>
+    <string name="menu_event">Evènement</string>
+    <string name="menu_shopping">Shopping</string>
+    <string name="menu_restaurant">Restaurant</string>
+    <string name="text_map">Ceci est le texte du fragment Carte</string>
+    <string name="text_burger">Ceci est le texte du fragment Menu</string>
+    <string name="text_profile">Ceci est le texte du fragment Compte</string>
+</resources>
