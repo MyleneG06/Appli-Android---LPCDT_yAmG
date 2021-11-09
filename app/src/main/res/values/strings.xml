@@ -4,6 +4,10 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
+    <string name="title_map">Carte</string>
+    <string name="title_burger">Menu</string>
+    <string name="title_profile">Compte</string>
+
     <string name="menu_excursion">Excursion</string>
     <string name="menu_sport">Sport</string>
     <string name="menu_wellness">Bien-être</string>
