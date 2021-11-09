@@ -7,7 +7,7 @@ import android.arch.lifecycle.ViewModel
 class DashboardViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "Ceci est le texte du fragment Menu"
     }
     val text: LiveData<String> = _text
 }

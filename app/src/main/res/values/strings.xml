@@ -16,5 +16,9 @@
     <string name="menu_shopping">Shopping</string>
     <string name="menu_restaurant">Restaurant</string>
 
+    <string name="text_map">Ceci est le texte du fragment Carte</string>
+    <string name="text_burger">Ceci est le texte du fragment Menu</string>
+    <string name="text_profile">Ceci est le texte du fragment Compte</string>
+
 
 </resources>
