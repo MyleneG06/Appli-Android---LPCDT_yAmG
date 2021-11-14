@@ -1,4 +1,4 @@
-package com.example.romanticruise.ui.notifications
+package com.example.romanticruise.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,12 +9,12 @@ import android.support.v4.app.Fragment
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
 import com.example.romanticruise.R
-import com.example.romanticruise.databinding.FragmentNotificationsBinding
+import com.example.romanticruise.databinding.FragmentProfileBinding
 
-class NotificationsFragment : Fragment() {
+class ProfileFragment : Fragment() {
 
-    private lateinit var notificationsViewModel: NotificationsViewModel
-    private var _binding: FragmentNotificationsBinding? = null
+    private lateinit var profileViewModel: ProfileViewModel
+    private var _binding: FragmentProfileBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,17 +25,21 @@ class NotificationsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        notificationsViewModel =
+        profileViewModel =
             ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(
-                NotificationsViewModel::class.java
+                ProfileViewModel::class.java
             )
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+        var menu_profile = getString(R.string.profile_info)
+        menu_profile += "\n" + getString(R.string.profile_language)
+        menu_profile += "\n" + getString(R.string.profile_logout)
+
+        val textView: TextView = binding.textProfile
+        profileViewModel.text.observe(viewLifecycleOwner, Observer {
+            textView.text = menu_profile
         })
         return root
     }

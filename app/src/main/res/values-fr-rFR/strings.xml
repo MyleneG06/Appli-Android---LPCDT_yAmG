@@ -4,9 +4,16 @@
     <string name="title_home">Accueil</string>
     <string name="title_dashboard">Tableau de bord</string>
     <string name="title_notifications">Notifications</string>
+
     <string name="title_map">Carte</string>
     <string name="title_burger">Menu</string>
     <string name="title_profile">Compte</string>
+
+    <string name="profile_info">Détails</string>
+    <string name="profile_logout">Déconnexion</string>
+    <string name="profile_language">Langues</string>
+
+    <string name="menu_title">SERVICES</string>
     <string name="menu_excursion">Excursion</string>
     <string name="menu_sport">Sport</string>
     <string name="menu_wellness">Bien-être</string>
