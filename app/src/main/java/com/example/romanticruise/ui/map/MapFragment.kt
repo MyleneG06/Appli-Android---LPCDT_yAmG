@@ -10,6 +10,7 @@ import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
 import android.widget.Button
 import android.widget.Toast
+import com.example.romanticruise.MainActivity
 import com.example.romanticruise.R
 import com.example.romanticruise.databinding.FragmentMapBinding
 
@@ -50,6 +51,8 @@ class MapFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+
 
 
 }
