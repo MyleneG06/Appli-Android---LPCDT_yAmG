@@ -12,11 +12,6 @@ Voici notre projet d'application **Android** en langage _Kotlin_ sur le thème d
 2. Ouvrir dans _Android Studio_ en ouvrant un projet existant. 
 
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/86916604/141783424-6f293a76-d23d-49d9-a491-35ad270c9c91.png" alt="visuel de Romanticruise" width="500" height="auto"/>
-</p>
-
-
 
 <details close>
   <summary>Table of Contents</summary>
@@ -46,8 +41,12 @@ Le menu **map** permettra de rediriger l'utilisateur sur une carte avec ses coor
 Le **menu burger** permet de visualiser la liste des services disponibles à bord de la croisière. 
 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86916604/141783424-6f293a76-d23d-49d9-a491-35ad270c9c91.png" alt="visuel de Romanticruise" width="500" height="auto"/>
+</p>
+
 ## Contribution
-Les contributuions sur ce projet sont possibles et bienvenues à condition de se mettre en contact avec l'équipe au préalable. Voici les étapes à suivre :
+Les contributions sur ce projet sont possibles et bienvenues à condition de se mettre en contact avec l'équipe au préalable. Voici les étapes à suivre :
 
 1. Récupérer le projet ou faire un Pull
 2. Créer une branche pour chaque fonctionnalité (`git checkout -b feature/AmazingFeature`)
