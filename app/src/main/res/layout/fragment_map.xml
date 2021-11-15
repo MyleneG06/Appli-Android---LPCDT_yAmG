@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_toast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"

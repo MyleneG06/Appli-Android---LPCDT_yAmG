@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.support.v4.app.Fragment
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
+import android.widget.Button
 import android.widget.Toast
 import com.example.romanticruise.R
 import com.example.romanticruise.databinding.FragmentMapBinding
@@ -39,6 +40,9 @@ class MapFragment : Fragment() {
         mapViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+
+        Toast.makeText(activity,R.string.text_map, Toast.LENGTH_SHORT).show()
+
         return root
     }
 
@@ -47,8 +51,5 @@ class MapFragment : Fragment() {
         _binding = null
     }
 
-    fun clicBouton(){
-        Toast.makeText(activity,R.string.text_map, Toast.LENGTH_SHORT).show()
-    }
 
 }
